@@ -40,8 +40,8 @@ public class Lox {
       if (line == null)
         break;
       run(line);
-      // Reset flag for interactive loop. If use makes a mistake,
-      // it shouldn't kill their entire session.
+      // Reset flag for interactive loop. If user makes a mistake,
+      // we shouldn't kill their entire session.
       hadError = false;
     }
   }
